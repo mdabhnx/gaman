@@ -24,6 +24,7 @@
       color: #ffffff;
     }
   }
+
   .footer-navigation {
     flex: 0.5;
     display: flex;
@@ -97,5 +98,36 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 1199px) {
+    & {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.copy-write-container {
+  height: 88px;
+  background: linear-gradient(
+    180deg,
+    rgba(229, 15, 28, 0.6) 0%,
+    rgba(146, 0, 0, 0.534) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .cw-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 164%;
+
+    text-align: center;
+
+    color: #ffffff;
   }
 }
