@@ -1,0 +1,77 @@
+.monetization-container {
+  margin-bottom: 68px;
+}
+
+.monetization-wrapper-container {
+  border-radius: 20px;
+  max-width: 1290px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.monetization-wrapper {
+  &::before {
+    content: "";
+    background-image: linear-gradient(
+      180deg,
+      #e50f1c -38.3%,
+      rgba(146, 0, 0, 0.89) 198.94%
+    );
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    border-radius: 20px;
+  }
+
+  display: flex;
+
+  .monetization-left {
+    flex: 0.5;
+
+    .monetization-left-content {
+      padding-left: 51px;
+      padding-top: 80px;
+      padding-bottom: 78px;
+      padding-right: 100px;
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 149.5%;
+      color: #000000;
+
+      .c__ {
+        position: relative;
+        .fans {
+          background-image: linear-gradient(
+            180deg,
+            #e50f1c -38.3%,
+            rgba(146, 0, 0, 0.89) 198.94%
+          );
+          background-size: 100%;
+          background-repeat: repeat;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-background-clip: text;
+          -moz-text-fill-color: transparent;
+        }
+        .sparkles {
+          position: absolute;
+          top: -20px;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  .monetization-right {
+    flex: 0.5;
+  }
+}
