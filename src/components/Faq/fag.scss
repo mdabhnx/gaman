@@ -1,0 +1,38 @@
+.faq-container {
+  margin-bottom: 149px;
+}
+
+.faq-content {
+  display: flex;
+  gap: 35px;
+
+  .faq-content-left {
+    flex: 0.5;
+    img {
+      width: 503.27px;
+      height: 532.72px;
+      margin-top: 51px;
+    }
+  }
+  .faq-content-right {
+    flex: 0.5;
+    flex-direction: column;
+
+    .faq-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 57px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 57px;
+    }
+
+    .faq-contents {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
