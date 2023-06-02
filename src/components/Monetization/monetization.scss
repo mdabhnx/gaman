@@ -73,5 +73,43 @@
 
   .monetization-right {
     flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    .monetization-right-hashtag {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 38px;
+      color: #000000;
+    }
+
+    .monetization-right-get-started {
+      width: 290px;
+      height: 82px;
+      left: 911px;
+      top: 3368px;
+      background: linear-gradient(
+          180deg,
+          #e50f1c -38.3%,
+          rgba(146, 0, 0, 0.89) 198.94%
+        ),
+        #ffffff;
+      border: 1.5px solid #ffffff;
+      border-radius: 42.5px;
+
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 149.5%;
+      /* identical to box height, or 27px */
+
+      color: #ffffff;
+    }
   }
 }

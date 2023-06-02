@@ -20,7 +20,12 @@ const Monetization = () => {
               </div>
             </div>
           </div>
-          <div className="monetization-right"></div>
+          <div className="monetization-right">
+            <div className="monetization-right-hashtag">#gamanforcreators</div>
+            <button className="monetization-right-get-started">
+              Get Started with Gaman
+            </button>
+          </div>
         </div>
       </div>
     </div>
