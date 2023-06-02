@@ -43,6 +43,10 @@
           line-height: 120.02%;
           color: #ffffff;
           margin-bottom: 18px;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
         li:last-child {
           margin-bottom: 0;
@@ -79,6 +83,10 @@
           img {
             height: 25px;
             width: 25px;
+
+            &:hover {
+              cursor: pointer;
+            }
           }
         }
       }
@@ -95,6 +103,10 @@
           font-size: 16px;
           line-height: 19px;
           color: #ffffff;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
