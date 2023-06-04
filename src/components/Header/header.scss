@@ -49,7 +49,6 @@
         line-height: 19px;
 
         li {
-          padding-bottom: 4px;
           a {
             color: #000000;
           }
@@ -93,15 +92,20 @@
 }
 
 .active {
-  margin-top: 4px;
-  display: block;
-  width: 20px;
-  height: 3px;
-  background: linear-gradient(
-      180deg,
-      #e50f1c -38.3%,
-      rgba(146, 0, 0, 0.89) 198.94%
-    ),
-    #ffffff;
-  border-radius: 6px;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: linear-gradient(
+        180deg,
+        #e50f1c -38.3%,
+        rgba(146, 0, 0, 0.89) 198.94%
+      ),
+      #ffffff;
+    border-radius: 6px;
+    bottom: -6px;
+  }
 }
