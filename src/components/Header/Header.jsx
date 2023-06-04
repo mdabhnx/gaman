@@ -30,7 +30,7 @@ const Header = () => {
         </div>
 
         <div className="navigation-mobile">
-          <img src="/assets/hamburger.svg" alt="hamburger" srcset="" />
+          <img src="/assets/hamburger.svg" alt="hamburger" srcSet="" />
         </div>
       </div>
     </div>
