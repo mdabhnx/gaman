@@ -1,0 +1,31 @@
+.header-container {
+  height: 103px;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.102);
+  display: flex;
+  justify-content: center;
+  .header-wrapper {
+    width: 100%;
+    max-width: calc(1440px - 150px);
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 1199px) {
+      max-width: calc(1024px - 150px);
+    }
+
+    @media (max-width: 770px) {
+      max-width: calc(770px - 50px);
+    }
+
+    @media (max-width: 540px) {
+      margin-left: 16px;
+      margin-right: 16px;
+      .navigation {
+        display: none;
+      }
+    }
+  }
+}
