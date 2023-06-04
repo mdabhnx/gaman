@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
 import Header from "./components/Header/Header";
 // import Footer from "./components/Footer/Footer";
 // import Monetization from "./components/Monetization/Monetization";
@@ -6,12 +8,14 @@ import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      {/* <Faq />
+    <>
+      <BrowserRouter>
+        <Header />
+        {/* <Faq />
       <Monetization />
       <Footer /> */}
-    </div>
+      </BrowserRouter>
+    </>
   );
 };
 
