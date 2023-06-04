@@ -82,6 +82,10 @@
             line-height: 135.3%;
             color: #ffffff;
             border: 6px solid #f8d4d6;
+
+            &:hover {
+              cursor: pointer;
+            }
           }
           .ring-container {
             .ring {
