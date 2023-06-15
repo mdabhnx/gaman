@@ -7,6 +7,8 @@ const Hero = () => {
       <div className="hero-wrapper">
         <div className="contents">
           <div className="content">
+            <div className="left-gradient"></div>
+            <div className="bottom-right-gradient"></div>
             <div className="monetize">
               Monetize & Engage
               <br />
