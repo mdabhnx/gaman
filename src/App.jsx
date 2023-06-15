@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Monetization from "./components/Monetization/Monetization";
 import Faq from "./components/Faq/Faq";
+import Steps from "./components/Steps/Steps";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Hero />
+        <Steps />
         <Faq />
         <Monetization />
         <Footer />
