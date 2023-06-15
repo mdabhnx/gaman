@@ -25,8 +25,9 @@ const Hero = () => {
                 <span>Get Started</span>
               </button>
               <div className="ring-container">
+                <div className="ring-bg"></div>
                 <div className="ring">
-                  <img src="/assets/ring-one.png" alt="ring-one" />
+                  <img src="/assets/ring-one-color.png" alt="ring-one" />
                 </div>
               </div>
             </div>

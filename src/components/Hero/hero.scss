@@ -88,7 +88,22 @@
             }
           }
           .ring-container {
+            position: relative;
+            .ring-bg {
+              height: 79.71px;
+              width: 79.71px;
+              margin-left: 142px;
+              background: linear-gradient(
+                  180deg,
+                  #e50f1c -38.3%,
+                  rgba(146, 0, 0, 0.89) 198.94%
+                ),
+                #ffffff;
+              filter: blur(100px);
+            }
             .ring {
+              position: absolute;
+              top: 0;
               margin-left: 142px;
               height: 79.71px;
               width: 79.71px;
