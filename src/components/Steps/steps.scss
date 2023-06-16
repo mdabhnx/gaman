@@ -160,3 +160,27 @@
       linear-gradient(0deg, #ffffff, #ffffff) !important;
   }
 }
+
+.steps-left-contents {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../../public/assets/clip-image.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  .img-container {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15.3px;
+    img {
+      border-radius: 4px;
+    }
+  }
+
+  .starts-container {
+    position: absolute;
+    right: -35px;
+    top: 70px;
+  }
+}

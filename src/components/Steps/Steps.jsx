@@ -7,9 +7,12 @@ const Steps = () => {
       <div className="steps-wrapper">
         <div className="steps-contents">
           <div className="steps-left-contents">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            aut reiciendis, eveniet possimus dicta voluptatibus sed iure labore
-            culpa nisi?
+            <div className="starts-container">
+              <img src="/assets/stars.png" alt="stars" />
+            </div>
+            <div className="img-container">
+              <img src="/assets/home-screen-1.png" alt="home-screen-1" />
+            </div>
           </div>
           <div className="steps-right-contents">
             <div className="title">
