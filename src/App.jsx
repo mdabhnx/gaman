@@ -15,9 +15,10 @@ const App = () => {
         <Header />
         <Hero />
         <Steps />
-        <Faq />
+        {/* <Faq />
         <Monetization />
-        <Footer />
+        <Footer /> */}
+        <div style={{ height: "300px" }}></div>
       </BrowserRouter>
     </>
   );
