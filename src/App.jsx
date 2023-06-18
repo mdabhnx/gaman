@@ -20,7 +20,7 @@ const App = () => {
         <Faq />
         <Monetization />
         <Footer />
-        <div style={{ height: "900px" }}></div>
+        {/* <div style={{ height: "900px" }}></div> */}
       </BrowserRouter>
     </>
   );
