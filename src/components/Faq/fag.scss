@@ -69,10 +69,8 @@
         }
 
         .faq-details {
-          visibility: hidden;
-          position: absolute;
-          top: 0px;
-          z-index: -1;
+          margin-top: -80px;
+          display: none;
           background: linear-gradient(
             180deg,
             rgba(229, 15, 28, 0.1) -38.3%,
@@ -97,5 +95,5 @@
 }
 
 .visible {
-  visibility: visible !important;
+  display: block !important;
 }
