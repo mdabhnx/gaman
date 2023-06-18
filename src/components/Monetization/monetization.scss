@@ -30,7 +30,14 @@
   }
 
   display: flex;
+  position: relative;
+  min-height: 359px;
 
+  .img-container {
+    position: absolute;
+    bottom: -35px;
+    left: 40%;
+  }
   .monetization-left {
     flex: 0.5;
 

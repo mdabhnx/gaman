@@ -6,6 +6,9 @@ const Monetization = () => {
     <div className="monetization-container">
       <div className="monetization-wrapper-container">
         <div className="monetization-wrapper">
+          <div className="img-container">
+            <img src="/assets/round-arrow.png" alt="round-arrow" />
+          </div>
           <div className="monetization-left">
             <div className="monetization-left-content">
               <div className="c__">
