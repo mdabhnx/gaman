@@ -12,7 +12,20 @@ const Faq = () => {
           <div className="faq-content-right">
             <div className="faq-title">FAQ Section</div>
 
-            <div className="faq-contents"></div>
+            <div className="faq-contents">
+              <div className="faq-cell-container">
+                <div className="faq-cell">
+                  <div className="name">
+                    How is this different from other apps?
+                  </div>
+                  <div className="action">x</div>
+                </div>
+                <div className="faq-details visible">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

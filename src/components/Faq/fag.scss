@@ -11,7 +11,7 @@
     img {
       width: 503.27px;
       height: 532.72px;
-      margin-top: 51px;
+      margin-top: 151px;
     }
   }
   .faq-content-right {
@@ -33,6 +33,69 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      .faq-cell-container {
+        position: relative;
+
+        .faq-cell {
+          width: 100%;
+          height: 80px;
+          background: linear-gradient(
+              180deg,
+              #e50f1c -38.3%,
+              rgba(146, 0, 0, 0.89) 198.94%
+            ),
+            #ffffff;
+          border-radius: 20px;
+          padding: 28px 24px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .name {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            color: #ffffff;
+          }
+
+          .action {
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+
+        .faq-details {
+          visibility: hidden;
+          position: absolute;
+          top: 0px;
+          z-index: -1;
+          background: linear-gradient(
+            180deg,
+            rgba(229, 15, 28, 0.1) -38.3%,
+            rgba(146, 0, 0, 0.089) 198.94%
+          );
+          border-radius: 20px;
+          width: 100%;
+          padding: 95px 89px 31px 24px;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 27px;
+          color: #000000;
+          border: 1px solid;
+          border-color: rgba(146, 0, 0, 0.89);
+        }
+      }
     }
   }
+}
+
+.visible {
+  visibility: visible !important;
 }
