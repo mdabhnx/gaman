@@ -1,10 +1,12 @@
 import React from "react";
-import "./fag.scss";
+import "./faq.scss";
 
 const Faq = () => {
   return (
     <div className="faq-container">
-      <div className="wrapper">
+      <div className="faq-wrapper">
+        <div className="left-gradient"></div>
+        <div className="bottom-right-gradient"></div>
         <div className="faq-content">
           <div className="faq-content-left">
             <img src="/assets/faq-image.png" alt="faq" />

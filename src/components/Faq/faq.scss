@@ -1,0 +1,162 @@
+.faq-container {
+  margin-bottom: 149px;
+  display: flex;
+  justify-content: center;
+
+  .faq-wrapper {
+    width: 100%;
+    max-width: calc(1440px - 150px);
+    position: relative;
+
+    @media (max-width: 1199px) {
+      max-width: calc(1024px - 150px);
+    }
+
+    @media (max-width: 770px) {
+      max-width: calc(770px - 50px);
+    }
+
+    .left-gradient {
+      position: absolute;
+      width: 271px;
+      height: 271px;
+      top: -50px;
+      left: -195px;
+      background: linear-gradient(
+          180deg,
+          #e50f1c -38.3%,
+          rgba(146, 0, 0, 0.89) 198.94%
+        ),
+        #ffffff;
+      opacity: 0.4;
+      filter: blur(150px);
+    }
+
+    .bottom-right-gradient {
+      position: absolute;
+      width: 398px;
+      height: 398px;
+      left: 1161px;
+      top: 461px;
+
+      /* Main Color */
+
+      background: linear-gradient(
+          180deg,
+          #e50f1c -38.3%,
+          rgba(146, 0, 0, 0.89) 198.94%
+        ),
+        #ffffff;
+      opacity: 0.2;
+      filter: blur(150px);
+    }
+  }
+}
+
+.faq-content {
+  display: flex;
+  gap: 35px;
+
+  .faq-content-left {
+    flex: 0.5;
+    img {
+      width: 503.27px;
+      height: 532.72px;
+      margin-top: 151px;
+    }
+  }
+  .faq-content-right {
+    flex: 0.5;
+    flex-direction: column;
+
+    .faq-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 57px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 57px;
+    }
+
+    .faq-contents {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .faq-cell-container {
+        position: relative;
+
+        .faq-cell {
+          width: 100%;
+          height: 80px;
+          background: linear-gradient(
+            180deg,
+            rgba(229, 15, 28, 0.1) -38.3%,
+            rgba(146, 0, 0, 0.089) 198.94%
+          );
+          border-radius: 20px;
+          padding: 28px 24px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .name {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            color: black;
+          }
+
+          .action {
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+
+        .faq-details {
+          margin-top: -80px;
+          display: none;
+          background: linear-gradient(
+            180deg,
+            rgba(229, 15, 28, 0.1) -38.3%,
+            rgba(146, 0, 0, 0.089) 198.94%
+          );
+          border-radius: 20px;
+          width: 100%;
+          padding: 95px 89px 31px 24px;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 27px;
+          color: #000000;
+          border: 1px solid;
+          border-color: rgba(146, 0, 0, 0.89);
+        }
+      }
+    }
+  }
+}
+
+.visible {
+  .faq-cell {
+    background: linear-gradient(
+        180deg,
+        #e50f1c -38.3%,
+        rgba(146, 0, 0, 0.89) 198.94%
+      ),
+      #ffffff !important;
+    .name {
+      color: white !important;
+    }
+  }
+  .faq-details {
+    display: block !important;
+  }
+}
