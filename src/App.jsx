@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Monetization from "./components/Monetization/Monetization";
 import Faq from "./components/Faq/Faq";
 import Steps from "./components/Steps/Steps";
+import Creators from "./components/Creators/Creators";
 
 const App = () => {
   return (
@@ -15,10 +16,11 @@ const App = () => {
         <Header />
         <Hero />
         <Steps />
+        <Creators />
         {/* <Faq />
         <Monetization />
         <Footer /> */}
-        <div style={{ height: "300px" }}></div>
+        <div style={{ height: "900px" }}></div>
       </BrowserRouter>
     </>
   );
