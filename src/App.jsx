@@ -18,7 +18,7 @@ const App = () => {
         <Steps />
         <Creators />
         <Faq />
-        {/* <Monetization /> */}
+        <Monetization />
         {/* <Footer /> */}
         {/* <div style={{ height: "900px" }}></div> */}
       </BrowserRouter>

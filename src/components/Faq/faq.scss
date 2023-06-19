@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
 
+  @media (max-width: 540px) {
+    margin-bottom: 35px;
+  }
+
   .faq-wrapper {
     width: 100%;
     max-width: calc(1440px - 150px);
@@ -40,7 +44,7 @@
       position: absolute;
       width: 398px;
       height: 398px;
-      left: 1161px;
+      right: 0px;
       top: 461px;
 
       /* Main Color */
@@ -53,6 +57,11 @@
         #ffffff;
       opacity: 0.2;
       filter: blur(150px);
+
+      @media (max-width: 540px) {
+        // left: 20px;
+        display: none;
+      }
     }
   }
 }

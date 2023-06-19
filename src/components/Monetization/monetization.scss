@@ -9,6 +9,10 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  @media (max-width: 540px) {
+    padding: 0px 16px;
+  }
 }
 
 .monetization-wrapper {
@@ -33,14 +37,32 @@
   position: relative;
   min-height: 359px;
 
+  @media (max-width: 540px) {
+    flex-direction: column;
+    min-height: 0px;
+  }
+
   .img-container {
     position: absolute;
     bottom: -35px;
     left: 40%;
+    @media (max-width: 540px) {
+      left: 48%;
+      bottom: 64px;
+      img {
+        height: 94px;
+        width: 122px;
+        rotate: -90deg;
+        transform: scaleX(-1);
+      }
+    }
   }
+
   .monetization-left {
     flex: 0.5;
-
+    @media (max-width: 540px) {
+      flex: 0;
+    }
     .monetization-left-content {
       padding-left: 51px;
       padding-top: 80px;
@@ -52,6 +74,13 @@
       font-size: 45px;
       line-height: 149.5%;
       color: #000000;
+      @media (max-width: 540px) {
+        padding-top: 48px;
+        padding-left: 18px;
+        padding-bottom: 0px;
+        font-size: 24px;
+        line-height: 36px;
+      }
 
       .c__ {
         position: relative;
@@ -73,6 +102,9 @@
           position: absolute;
           top: -20px;
           right: 0;
+          @media (max-width: 540px) {
+            right: -30px;
+          }
         }
       }
     }
@@ -86,6 +118,13 @@
     flex-direction: column;
     gap: 15px;
 
+    @media (max-width: 540px) {
+      align-items: normal;
+      padding-left: 16px;
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
+
     .monetization-right-hashtag {
       font-family: "Poppins";
       font-style: normal;
@@ -93,6 +132,11 @@
       font-size: 25px;
       line-height: 38px;
       color: #000000;
+
+      @media (max-width: 540px) {
+        font-size: 14px;
+        line-height: 21px;
+      }
     }
 
     .monetization-right-get-started {
@@ -108,15 +152,19 @@
         #ffffff;
       border: 1.5px solid #ffffff;
       border-radius: 42.5px;
-
       font-family: "Ubuntu";
       font-style: normal;
       font-weight: 500;
       font-size: 18px;
-      line-height: 149.5%;
-      /* identical to box height, or 27px */
-
+      line-height: 27px;
       color: #ffffff;
+
+      @media (max-width: 540px) {
+        width: 193px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 16px;
+      }
     }
   }
 }
