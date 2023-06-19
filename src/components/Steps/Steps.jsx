@@ -2,16 +2,21 @@ import React from "react";
 import "./steps.scss";
 
 const Steps = () => {
+  const [currentStep, setCurrentStep] = React.useState(1);
+
   return (
     <div className="steps-container">
       <div className="steps-wrapper">
         <div className="steps-contents">
           <div className="steps-left-contents">
-            {/* <div className="starts-container">
+            <div className="starts-container">
               <img src="/assets/stars.png" alt="stars" />
-            </div> */}
+            </div>
             <div className="img-container">
-              <img src="/assets/home-screen-1.png" alt="home-screen-1" />
+              <img
+                src={`/assets/home-screen-${currentStep}.png`}
+                alt="home-screen-1"
+              />
             </div>
           </div>
           <div className="steps-right-contents">
@@ -25,8 +30,13 @@ const Steps = () => {
             </div>
 
             <div className="per-steps">
-              <div className="step">
-                <div className="rank rank-active">
+              <div
+                className="step"
+                onClick={() => {
+                  setCurrentStep(1);
+                }}
+              >
+                <div className={`rank ${currentStep === 1 && `rank-active`}`}>
                   <div className="rank-no">1</div>
                 </div>
                 <div className="info">
@@ -42,8 +52,13 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="step">
-                <div className="rank">
+              <div
+                className="step"
+                onClick={() => {
+                  setCurrentStep(2);
+                }}
+              >
+                <div className={`rank ${currentStep === 2 && `rank-active`}`}>
                   <div className="rank-no">2</div>
                 </div>
                 <div className="info">
@@ -59,8 +74,13 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="step">
-                <div className="rank">
+              <div
+                className="step"
+                onClick={() => {
+                  setCurrentStep(3);
+                }}
+              >
+                <div className={`rank ${currentStep === 3 && `rank-active`}`}>
                   <div className="rank-no">3</div>
                 </div>
                 <div className="info">
@@ -79,8 +99,13 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="step">
-                <div className="rank">
+              <div
+                className="step"
+                onClick={() => {
+                  setCurrentStep(4);
+                }}
+              >
+                <div className={`rank ${currentStep === 4 && `rank-active`}`}>
                   <div className="rank-no">4</div>
                 </div>
                 <div className="info">
