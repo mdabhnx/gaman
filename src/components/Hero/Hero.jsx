@@ -22,10 +22,12 @@ const Hero = () => {
               profits effortlessly.
             </div>
             <div className="action">
-              <button>
-                <img src="/assets/arrow-up.svg" alt="arrow-up" />{" "}
-                <span>Get Started</span>
-              </button>
+              <div className="action-button">
+                <button>
+                  <img src="/assets/arrow-up.svg" alt="arrow-up" />{" "}
+                  <span>Get Started</span>
+                </button>
+              </div>
               <div className="ring-container">
                 <div className="ring-bg"></div>
                 <div className="ring">
