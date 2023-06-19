@@ -19,7 +19,7 @@ const App = () => {
         <Creators />
         <Faq />
         <Monetization />
-        {/* <Footer /> */}
+        <Footer />
         {/* <div style={{ height: "900px" }}></div> */}
       </BrowserRouter>
     </>
