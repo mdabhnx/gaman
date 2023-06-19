@@ -45,6 +45,17 @@
             #ffffff;
           opacity: 0.4;
           filter: blur(150px);
+
+          @media (max-width: 540px) {
+            background: linear-gradient(
+                180deg,
+                #e50f1c -38.3%,
+                rgba(146, 0, 0, 0.89) 198.94%
+              ),
+              #ffffff;
+            opacity: 0.3;
+            filter: blur(150px);
+          }
         }
 
         .bottom-right-gradient {
@@ -64,6 +75,22 @@
             #ffffff;
           opacity: 0.2;
           filter: blur(150px);
+
+          @media (max-width: 540px) {
+            position: absolute;
+            width: 179px;
+            height: 179px;
+            left: 188px;
+            top: 553px;
+            background: linear-gradient(
+                180deg,
+                #e50f1c -38.3%,
+                rgba(146, 0, 0, 0.89) 198.94%
+              ),
+              #ffffff;
+            opacity: 0.4;
+            filter: blur(150px);
+          }
         }
 
         .monetize {
@@ -170,6 +197,10 @@
                 ),
                 #ffffff;
               filter: blur(100px);
+
+              @media (max-width: 540px) {
+                display: none;
+              }
             }
             .ring {
               position: absolute;
@@ -207,6 +238,12 @@
 
       .image {
         flex: 0.5;
+        display: flex;
+        justify-content: flex-end;
+        img {
+          height: 699.2452754801777px;
+          width: 531.4436310455147px;
+        }
 
         @media (max-width: 540px) {
           display: flex;
