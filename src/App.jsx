@@ -17,7 +17,7 @@ const App = () => {
         <Hero />
         <Steps />
         <Creators />
-        {/* <Faq /> */}
+        <Faq />
         {/* <Monetization /> */}
         {/* <Footer /> */}
         {/* <div style={{ height: "900px" }}></div> */}

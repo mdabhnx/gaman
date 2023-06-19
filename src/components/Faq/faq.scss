@@ -16,6 +16,10 @@
       max-width: calc(770px - 50px);
     }
 
+    @media (max-width: 540px) {
+      max-width: calc(540px - 50px);
+    }
+
     .left-gradient {
       position: absolute;
       width: 271px;
@@ -57,14 +61,30 @@
   display: flex;
   gap: 35px;
 
+  @media (max-width: 540px) {
+    flex-direction: column-reverse;
+  }
+
   .faq-content-left {
     flex: 0.5;
+
+    @media (max-width: 540px) {
+      display: flex;
+      justify-content: center;
+    }
     img {
       width: 503.27px;
       height: 532.72px;
       margin-top: 151px;
+
+      @media (max-width: 540px) {
+        margin-top: 57px;
+        height: 324.96728515625px;
+        width: 307.00042724609375px;
+      }
     }
   }
+
   .faq-content-right {
     flex: 0.5;
     flex-direction: column;
@@ -78,12 +98,22 @@
       text-transform: uppercase;
       color: #000000;
       margin-bottom: 57px;
+      @media (max-width: 540px) {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        justify-content: center;
+      }
     }
 
     .faq-contents {
       display: flex;
       flex-direction: column;
       gap: 20px;
+      @media (max-width: 540px) {
+        padding: 0px 16px;
+      }
 
       .faq-cell-container {
         position: relative;
@@ -102,6 +132,10 @@
           justify-content: space-between;
           align-items: center;
 
+          @media (max-width: 540px) {
+            height: 52px;
+          }
+
           .name {
             font-family: "Inter";
             font-style: normal;
@@ -109,6 +143,10 @@
             font-size: 18px;
             line-height: 23px;
             color: black;
+            @media (max-width: 540px) {
+              font-size: 10px;
+              line-height: 13px;
+            }
           }
 
           .action {
@@ -138,6 +176,13 @@
           color: #000000;
           border: 1px solid;
           border-color: rgba(146, 0, 0, 0.89);
+          @media (max-width: 540px) {
+            font-weight: 500;
+            font-size: 8px;
+            line-height: 15px;
+            margin-top: -55px;
+            padding: 70px 89px 20px 24px;
+          }
         }
       }
     }

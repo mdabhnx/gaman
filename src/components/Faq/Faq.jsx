@@ -12,7 +12,9 @@ const Faq = () => {
             <img src="/assets/faq-image.png" alt="faq" />
           </div>
           <div className="faq-content-right">
-            <div className="faq-title">FAQ Section</div>
+            <div className="faq-title">
+              <div>FAQ Section</div>
+            </div>
 
             <div className="faq-contents">
               <div className="faq-cell-container visible">
