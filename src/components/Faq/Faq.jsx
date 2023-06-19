@@ -1,5 +1,6 @@
 import React from "react";
 import "./faq.scss";
+import Cell from "./Cell";
 
 const Faq = () => {
   return (
@@ -17,65 +18,34 @@ const Faq = () => {
             </div>
 
             <div className="faq-contents">
-              <div className="faq-cell-container visible">
-                <div className="faq-cell">
-                  <div className="name">
-                    How is this different from other apps?
-                  </div>
-                  <div className="action">
-                    <img src="/assets/close.png" alt="close" />
-                  </div>
-                </div>
-                <div className="faq-details">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-              </div>
+              <Cell
+                name={"How is this different from other apps"}
+                details={
+                  " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+                }
+                isDefaultOpen={true}
+              />
 
-              <div className="faq-cell-container">
-                <div className="faq-cell">
-                  <div className="name">
-                    How is this different from other apps?
-                  </div>
-                  <div className="action">
-                    <img src="/assets/open.png" alt="close" />
-                  </div>
-                </div>
-                <div className="faq-details">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-              </div>
+              <Cell
+                name={"How is this different from other apps"}
+                details={
+                  " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+                }
+              />
 
-              <div className="faq-cell-container visible">
-                <div className="faq-cell">
-                  <div className="name">
-                    How is this different from other apps?
-                  </div>
-                  <div className="action">
-                    <img src="/assets/open.png" alt="close" />
-                  </div>
-                </div>
-                <div className="faq-details">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-              </div>
+              <Cell
+                name={"How is this different from other apps"}
+                details={
+                  " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+                }
+              />
 
-              <div className="faq-cell-container">
-                <div className="faq-cell">
-                  <div className="name">
-                    How is this different from other apps?
-                  </div>
-                  <div className="action">
-                    <img src="/assets/open.png" alt="close" />
-                  </div>
-                </div>
-                <div className="faq-details">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-              </div>
+              <Cell
+                name={"How is this different from other apps"}
+                details={
+                  " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+                }
+              />
             </div>
           </div>
         </div>
