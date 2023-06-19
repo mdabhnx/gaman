@@ -7,19 +7,21 @@ const Steps = () => {
       <div className="steps-wrapper">
         <div className="steps-contents">
           <div className="steps-left-contents">
-            <div className="starts-container">
+            {/* <div className="starts-container">
               <img src="/assets/stars.png" alt="stars" />
-            </div>
+            </div> */}
             <div className="img-container">
               <img src="/assets/home-screen-1.png" alt="home-screen-1" />
             </div>
           </div>
           <div className="steps-right-contents">
-            <div className="title">
-              <p>
-                Four Simple <span className="long-line"></span>
-                <span className="short-line"></span> Steps
-              </p>
+            <div className="title-div">
+              <div className="title">
+                <p>
+                  Four Simple <span className="long-line"></span>
+                  <span className="short-line"></span> Steps
+                </p>
+              </div>
             </div>
 
             <div className="per-steps">

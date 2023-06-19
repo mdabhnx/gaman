@@ -15,7 +15,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Hero />
-        {/* <Steps /> */}
+        <Steps />
         {/* <Creators /> */}
         {/* <Faq /> */}
         {/* <Monetization /> */}
