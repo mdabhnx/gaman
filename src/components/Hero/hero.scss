@@ -2,20 +2,16 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+
+  @media (max-width: 1199px) and (min-width: 541px) {
+  }
+
   .hero-wrapper {
     width: 100%;
     max-width: calc(1440px - 150px);
 
-    @media (max-width: 1199px) {
-      max-width: calc(1024px - 150px);
-    }
-
-    @media (max-width: 770px) {
-      max-width: calc(770px - 50px);
-    }
-
-    @media (max-width: 540px) {
-      max-width: calc(540px - 50px);
+    @media (max-width: 1199px) and (min-width: 541px) {
+      width: 85%;
     }
 
     .contents {
@@ -64,9 +60,6 @@
           height: 398px;
           left: 1061px;
           top: 461px;
-
-          /* Main Color */
-
           background: linear-gradient(
               180deg,
               #e50f1c -38.3%,
@@ -75,6 +68,11 @@
             #ffffff;
           opacity: 0.2;
           filter: blur(150px);
+
+          @media (max-width: 1199px) and (min-width: 541px) {
+            left: 544.84px;
+            top: 236.73px;
+          }
 
           @media (max-width: 540px) {
             position: absolute;
@@ -98,9 +96,7 @@
           font-style: normal;
           font-weight: 500;
           font-size: 60px;
-          line-height: 136%;
-          /* or 82px */
-
+          line-height: 82px;
           color: #000000;
 
           .fans {
@@ -118,16 +114,18 @@
             -moz-text-fill-color: transparent;
           }
 
+          @media (max-width: 1199px) and (min-width: 541px) {
+            font-size: 30.8108px;
+            line-height: 42px;
+          }
+
           @media (max-width: 540px) {
             font-family: "Ubuntu";
             font-style: normal;
             font-weight: 500;
             font-size: 26px;
-            line-height: 136%;
-            /* or 35px */
-
+            line-height: 35px;
             text-align: center;
-
             color: #000000;
           }
         }
@@ -141,6 +139,12 @@
           line-height: 43px;
           color: #000000;
           opacity: 0.8;
+
+          @media (max-width: 1199px) and (min-width: 541px) {
+            margin-top: 22px;
+            font-size: 10.2703px;
+            line-height: 22px;
+          }
 
           @media (max-width: 540px) {
             margin-top: 16px;
@@ -197,6 +201,11 @@
                 ),
                 #ffffff;
               filter: blur(100px);
+              @media (max-width: 1199px) and (min-width: 541px) {
+                margin-left: 68px;
+                height: 70px;
+                width: 70px;
+              }
 
               @media (max-width: 540px) {
                 display: none;
@@ -209,6 +218,14 @@
               height: 79.71px;
               width: 79.71px;
 
+              @media (max-width: 1199px) and (min-width: 541px) {
+                margin-left: 68px;
+                img {
+                  width: 40px;
+                  height: 40px;
+                }
+              }
+
               @media (max-width: 540px) {
                 top: 10px;
                 margin-left: 75%;
@@ -220,10 +237,37 @@
             }
           }
 
+          @media (max-width: 1199px) and (min-width: 541px) {
+            margin-top: 28px;
+            margin-bottom: 0px;
+            button {
+              width: 106.81px;
+              height: 38.51px;
+              font-size: 9.24324px;
+              line-height: 13px;
+
+              img {
+                height: 16px;
+                width: 16px;
+              }
+            }
+          }
+
           @media (max-width: 540px) {
             margin-top: 26px;
             margin-bottom: 0px;
             flex-direction: column;
+            button {
+              width: 157px;
+              height: 50px;
+              font-size: 14px;
+              line-height: 19px;
+
+              img {
+                height: 23px;
+                width: 23px;
+              }
+            }
             .action-button {
               display: flex;
               justify-content: center;
@@ -241,8 +285,15 @@
         display: flex;
         justify-content: flex-end;
         img {
-          height: 699.2452754801777px;
-          width: 531.4436310455147px;
+          height: 699px;
+          width: 531px;
+        }
+
+        @media (max-width: 1199px) and (min-width: 541px) {
+          img {
+            height: 359px;
+            width: 272px;
+          }
         }
 
         @media (max-width: 540px) {
