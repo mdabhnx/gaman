@@ -9,6 +9,7 @@
 
     @media (max-width: 1199px) and (min-width: 541px) {
       width: 85%;
+      margin-top: 42px;
     }
 
     @media (max-width: 540px) {
@@ -130,9 +131,9 @@
   gap: 24px;
   flex-direction: column;
 
-  @media (max-width: 540px) {
+  @media (max-width: 1199px) {
     gap: 12px;
-    padding: 0 40px;
+    // padding: 0 40px;
   }
 }
 
@@ -140,9 +141,11 @@
   display: flex;
   align-items: center;
   gap: 54px;
+
   :hover {
     cursor: pointer;
   }
+
   .rank {
     height: 36px;
     width: 36px;
@@ -160,6 +163,11 @@
       font-size: 18px;
       line-height: 27px;
 
+      @media (max-width: 1199px) and (min-width: 541px) {
+        font-size: 9.24324px;
+        line-height: 14px;
+      }
+
       @media (max-width: 540px) {
         font-size: 10px;
         line-height: 15px;
@@ -176,6 +184,11 @@
       width: 100px;
       height: 2px;
       background: gray;
+    }
+
+    @media (max-width: 1199px) and (min-width: 541px) {
+      height: 18.5px;
+      width: 18.5px;
     }
 
     @media (max-width: 540px) {
@@ -203,6 +216,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (max-width: 1199px) and (min-width: 541px) {
+        height: 30px;
+        min-width: 30px;
+        img {
+          height: 10px;
+          width: 13px;
+        }
+      }
+
       @media (max-width: 540px) {
         height: 34px;
         width: 34px;
@@ -221,10 +244,22 @@
       font-size: 18px;
       line-height: 27px;
       color: #000000;
+
+      @media (max-width: 1199px) and (min-width: 541px) {
+        font-size: 9.2px;
+        line-height: 14px;
+      }
+
       @media (max-width: 540px) {
         font-size: 12px;
         line-height: 18px;
       }
+    }
+
+    @media (max-width: 1199px) and (min-width: 541px) {
+      height: 41px;
+      width: 196px;
+      gap: 12px;
     }
 
     @media (max-width: 540px) {
@@ -232,6 +267,10 @@
       width: 247px;
       gap: 12px;
     }
+  }
+
+  @media (max-width: 1199px) and (min-width: 541px) {
+    gap: 32px;
   }
 
   @media (max-width: 540px) {
@@ -304,11 +343,32 @@
     position: absolute;
     right: -35px;
     top: 70px;
+
+    @media (max-width: 1199px) and (min-width: 541px) {
+      right: 20px;
+      img {
+        height: 29.784456253051758px;
+        width: 36.08397674560547px;
+      }
+    }
+
+    @media (max-width: 540px) {
+      top: -55px;
+      right: 0px;
+      img {
+        height: 22.000019073486328px;
+        width: 26.65355110168457px;
+      }
+    }
   }
 
   @media (max-width: 1199px) {
     background-image: url("../../../public/assets/clip-image-mb.png");
     background-repeat: no-repeat;
     background-position: bottom;
+  }
+
+  @media (max-width: 320px) {
+    width: 100% !important;
   }
 }

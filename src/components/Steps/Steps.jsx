@@ -19,6 +19,7 @@ const Steps = () => {
               />
             </div>
           </div>
+
           <div className="steps-right-contents">
             <div className="title-div">
               <div className="title">
