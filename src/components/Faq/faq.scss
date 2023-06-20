@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
 
+  @media (max-width: 1199px) and (min-width: 541px) {
+    margin-top: 122px;
+  }
+
   @media (max-width: 540px) {
     margin-bottom: 35px;
   }
@@ -12,12 +16,8 @@
     max-width: calc(1440px - 150px);
     position: relative;
 
-    @media (max-width: 1199px) {
-      max-width: calc(1024px - 150px);
-    }
-
-    @media (max-width: 770px) {
-      max-width: calc(770px - 50px);
+    @media (max-width: 1199px) and (min-width: 541px) {
+      width: 85%;
     }
 
     @media (max-width: 540px) {
@@ -77,14 +77,24 @@
   .faq-content-left {
     flex: 0.5;
 
+    @media (max-width: 1199px) and (min-width: 541px) {
+      flex: 0.35;
+    }
+
     @media (max-width: 540px) {
       display: flex;
       justify-content: center;
     }
+
     img {
       width: 503.27px;
       height: 532.72px;
       margin-top: 151px;
+
+      @media (max-width: 1199px) and (min-width: 541px) {
+        height: 270px;
+        width: 270px;
+      }
 
       @media (max-width: 540px) {
         margin-top: 57px;
@@ -98,6 +108,10 @@
     flex: 0.5;
     flex-direction: column;
 
+    @media (max-width: 1199px) and (min-width: 541px) {
+      flex: 0.65;
+    }
+
     .faq-title {
       font-family: "Inter";
       font-style: normal;
@@ -107,6 +121,12 @@
       text-transform: uppercase;
       color: #000000;
       margin-bottom: 57px;
+
+      @media (max-width: 1199px) and (min-width: 541px) {
+        font-size: 44px;
+        line-height: 57px;
+      }
+
       @media (max-width: 540px) {
         font-weight: 600;
         font-size: 20px;
@@ -120,6 +140,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+
       @media (max-width: 540px) {
         padding: 0px 16px;
       }
@@ -145,6 +166,10 @@
           justify-content: space-between;
           align-items: center;
 
+          @media (max-width: 1199px) and (min-width: 541px) {
+            height: 41.08px;
+          }
+
           @media (max-width: 540px) {
             height: 52px;
           }
@@ -156,6 +181,12 @@
             font-size: 18px;
             line-height: 23px;
             color: black;
+
+            @media (max-width: 1199px) and (min-width: 541px) {
+              font-size: 9.24324px;
+              line-height: 12px;
+            }
+
             @media (max-width: 540px) {
               font-size: 10px;
               line-height: 13px;
@@ -189,6 +220,14 @@
           color: #000000;
           border: 1px solid;
           border-color: rgba(146, 0, 0, 0.89);
+
+          @media (max-width: 1199px) and (min-width: 541px) {
+            margin-top: -56px;
+            font-size: 7.18919px;
+            line-height: 14px;
+            padding: 70px 89px 20px 24px;
+          }
+
           @media (max-width: 540px) {
             font-weight: 500;
             font-size: 8px;
