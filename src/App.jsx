@@ -14,12 +14,12 @@ const App = () => {
     <>
       <BrowserRouter>
         <Header />
-        <Hero />
+        {/* <Hero />
         <Steps />
         <Creators />
         <Faq />
         <Monetization />
-        <Footer />
+        <Footer /> */}
         {/* <div style={{ height: "900px" }}></div> */}
       </BrowserRouter>
     </>
